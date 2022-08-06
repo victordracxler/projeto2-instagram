@@ -1,7 +1,9 @@
 * {
 	box-sizing: border-box;
 }
-
+body{
+    background-color: #fafafa;
+}
 p {
     font-family: 'Roboto', sans-serif;
 }
@@ -85,7 +87,7 @@ strong{
 /**** Inicio do feed ****/
 .container{
 
-    background-color: red;
+    
     margin: 88px auto 0 auto;
     width: 614px;
     display: flex;
@@ -95,7 +97,7 @@ strong{
 
 /*** Stories ***/
 .stories-bar{
-    background-color: yellow;
+    background-color: #ffffff;
     margin-bottom: 24px;
     height: 118px;
     display: flex;
@@ -105,6 +107,8 @@ strong{
     overflow: hidden;
     padding: 18px 18px 14px 18px;
     position: relative;
+    border-radius: 3px;
+    border: 1px solid #dbdbdb;
 
 }
 .stories-bar .s-arrow{
@@ -114,25 +118,22 @@ strong{
     height: 26px;
     top: 46px;
     right: 8px;
-    z-index: 20;
+    z-index: 5;
        
     
 }
 .stories-bar .s-arrow .arrow{
     height: 26px;
     width: 26px;
-    filter: drop-shadow(20px 20px 4px black);
+    filter: drop-shadow(2px 2px 4px gray);
 }
 
 .stories-bar .story{
-    background-color: aquamarine;
     position: relative;
     
 }
 
 .stories-bar .story .s-user{
-   
-    background-color: blueviolet;
     height: 19px;
     width: auto;
     font-size: 12px;
@@ -162,13 +163,14 @@ strong{
 }
 
 .feed .post{ /* Cada post*/
-    background-color: purple;
+   
     margin-bottom: 60px;
-    border: 1px black solid;
+    border-radius: 3px;
+    border: 1px solid #dbdbdb;
 }
 
 .feed .post .post-top{ /*Topo do post*/
-    background-color: teal;
+    background-color: #ffffff;
     height: 60px;
     display: flex;
     flex-direction: row;
@@ -196,11 +198,14 @@ strong{
 }
 
 .feed .post .content img{ /*Conteudo do post*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 612px;
     height: 612px;
 }
 .feed .post .post-bottom{ /*Parte inferior do post*/
-    background-color: burlywood;
+    background-color: #ffffff;
     height: 76px;
     padding: 13px 17px 0px 17px;
 }
