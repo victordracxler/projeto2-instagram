@@ -21,6 +21,25 @@ strong{
 
 }
 
+.topbar .logos-box{
+    display: flex;
+    align-items: center;
+}
+
+.topbar .logos-box .icon-logo {
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+    border-right: 1px solid #DBDBDB;
+    
+}
+
+.topbar .logos-box .img-logo {
+    width: 103px;
+    height: 29px;
+    margin-left: 10px;
+}
+
 /**** Inicio do feed ****/
 .container{
 
@@ -42,9 +61,25 @@ strong{
     align-items: center;
     justify-content: flex-start;
     overflow: hidden;
-
     padding: 18px 18px 14px 18px;
+    position: relative;
 
+}
+.stories-bar .s-arrow{
+    color: white;
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    top: 46px;
+    right: 8px;
+    z-index: 20;
+       
+    
+}
+.stories-bar .s-arrow .arrow{
+    height: 26px;
+    width: 26px;
+    filter: drop-shadow(20px 20px 4px black);
 }
 
 .stories-bar .story{
@@ -146,6 +181,7 @@ strong{
     display: flex;
     justify-content: space-between;
     margin-right: 13px;
+    
 
 }
 
