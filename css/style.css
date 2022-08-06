@@ -20,7 +20,7 @@ strong{
     align-items: center;
 
 }
-
+/** Parte esquerda - Logos**/
 .topbar .logos-box{
     display: flex;
     align-items: center;
@@ -40,6 +40,43 @@ strong{
     margin-left: 10px;
 }
 
+/** Barra de pesquisa **/
+
+.topbar .searchbar {
+    background-color: #fafafa;
+    width: 215px;
+    height: 28px;
+    border-radius: 3px;
+    border: 1px solid #dbdbdb;
+    text-align: center;
+}
+
+.topbar .searchbar p{
+    height: 28px;
+    display: flex;
+    color: #979797;
+    font-size: 12px;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;   
+}
+
+/** Botões da barra superior **/
+.topbar .buttons{
+    height: 22px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topbar .buttons .bttn-icon{
+    height: 22px;
+    width: 22px;
+
+
+}
 /**** Inicio do feed ****/
 .container{
 
