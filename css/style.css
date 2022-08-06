@@ -13,11 +13,16 @@ strong{
 .topbar{
     width: 100%;
     height: 54px;
-    background-color: green;
+    background-color: #ffffff;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    border-bottom: 1px solid #dbdbdb;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
 
 }
 /** Parte esquerda - Logos**/
@@ -81,7 +86,7 @@ strong{
 .container{
 
     background-color: red;
-    margin: 34px auto 0 auto;
+    margin: 88px auto 0 auto;
     width: 614px;
     display: flex;
     flex-direction: column;
