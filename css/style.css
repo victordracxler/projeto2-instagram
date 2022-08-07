@@ -1,18 +1,21 @@
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
-body{
+
+body {
     background-color: #fafafa;
 }
+
 p {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
-strong{
+
+strong {
     font-weight: bold;
 }
 
 /* Barra superior */
-.topbar{
+.topbar {
     width: 100%;
     height: 54px;
     background-color: #ffffff;
@@ -25,10 +28,10 @@ strong{
     top: 0;
     left: 0;
     z-index: 100;
-
 }
+
 /** Parte esquerda - Logos**/
-.topbar .logos-box{
+.topbar .logos-box {
     display: flex;
     align-items: center;
 }
@@ -37,8 +40,7 @@ strong{
     width: 20px;
     height: 20px;
     padding-right: 10px;
-    border-right: 1px solid #DBDBDB;
-    
+    border-right: 1px solid #dbdbdb;
 }
 
 .topbar .logos-box .img-logo {
@@ -58,18 +60,18 @@ strong{
     text-align: center;
 }
 
-.topbar .searchbar p{
+.topbar .searchbar p {
     height: 28px;
     display: flex;
     color: #979797;
     font-size: 12px;
     font-weight: 400;
     justify-content: center;
-    align-items: center;   
+    align-items: center;
 }
 
 /** Botões da barra superior **/
-.topbar .buttons{
+.topbar .buttons {
     height: 22px;
     width: 150px;
     display: flex;
@@ -78,33 +80,28 @@ strong{
     align-items: center;
 }
 
-.topbar .buttons .bttn-icon{
+.topbar .buttons .bttn-icon {
     height: 22px;
     width: 22px;
-
-
 }
 
-
 /**** Inicio do feed ****/
-.layout{
-    background-color: yellow;
+.layout {
     width: 935px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
-.container{
-    background-color: blue;
+
+.container {
     margin-top: 88px;
     width: 614px;
     display: flex;
     flex-direction: column;
-    
 }
 
 /*** Stories ***/
-.stories-bar{
+.stories-bar {
     background-color: #ffffff;
     margin-bottom: 24px;
     height: 118px;
@@ -117,9 +114,9 @@ strong{
     position: relative;
     border-radius: 3px;
     border: 1px solid #dbdbdb;
-
 }
-.stories-bar .s-arrow{
+
+.stories-bar .s-arrow {
     color: white;
     position: absolute;
     width: 26px;
@@ -127,57 +124,57 @@ strong{
     top: 46px;
     right: 8px;
     z-index: 5;
-       
-    
 }
-.stories-bar .s-arrow .arrow{
+
+.stories-bar .s-arrow .arrow {
     height: 26px;
     width: 26px;
     filter: drop-shadow(2px 2px 4px gray);
 }
 
-.stories-bar .story{
+.stories-bar .story {
     position: relative;
-    
 }
 
-.stories-bar .story .s-user{
+.stories-bar .story .s-user {
     height: 19px;
     width: auto;
     font-size: 12px;
     text-align: center;
     font-weight: 400;
-    
+
     margin-right: 14px;
 }
+
 .stories-bar .story .sbg {
     height: 66px;
     width: 66px;
     border-radius: 33px;
     margin-right: 14px;
-   
 }
 
 .stories-bar .story .s-pfl {
     position: absolute;
     z-index: 1;
     top: 5px;
-    left:5px;
+    left: 5px;
 }
 
 /*** Feed ***/
-.feed{
-    background-color: blue;
+.feed {
+    background-color: #139ef2;
 }
 
-.feed .post{ /* Cada post*/
-   
+.feed .post {
+    /* Cada post*/
+
     margin-bottom: 60px;
     border-radius: 3px;
     border: 1px solid #dbdbdb;
 }
 
-.feed .post .post-top{ /*Topo do post*/
+.feed .post .post-top {
+    /*Topo do post*/
     background-color: #ffffff;
     height: 60px;
     display: flex;
@@ -187,89 +184,91 @@ strong{
     position: relative;
 }
 
-.feed .post .post-top .profile-pic{ /*Foto do usuario*/
+.feed .post .post-top .profile-pic {
+    /*Foto do usuario*/
     width: 32px;
     height: 32px;
     margin-right: 15px;
 }
-.feed .post .post-top .p-user{ /*username*/
+
+.feed .post .post-top .p-user {
+    /*username*/
     font-size: 14px;
     font-weight: 500;
 }
 
-.feed .post .post-top .post-options{ /*Reticências*/
+.feed .post .post-top .post-options {
+    /*Reticências*/
     width: 16px;
     height: 16px;
     position: absolute;
     right: 17px;
-
 }
 
-.feed .post .content img{ /*Conteudo do post*/
+.feed .post .content img {
+    /*Conteudo do post*/
     display: flex;
     align-items: center;
     justify-content: center;
     width: 612px;
     height: 612px;
 }
-.feed .post .post-bottom{ /*Parte inferior do post*/
+
+.feed .post .post-bottom {
+    /*Parte inferior do post*/
     background-color: #ffffff;
     height: 76px;
     padding: 13px 17px 0px 17px;
 }
 
-.feed .post .post-bottom .controls { /*Botões da parte inferior do post*/
-    
+.feed .post .post-bottom .controls {
+    /*Botões da parte inferior do post*/
+
     display: flex;
     flex-direction: row;
     width: 100%;
     position: relative;
-    
-
 }
 
-.feed .post .post-bottom .controls .icons-left{
+.feed .post .post-bottom .controls .icons-left {
     font-size: 22px;
-    
+
     height: 22px;
     width: 88px;
     display: flex;
     justify-content: space-between;
     margin-right: 13px;
-    
-
 }
 
-.feed .post .post-bottom .controls .icons-right{
+.feed .post .post-bottom .controls .icons-right {
     font-size: 22px;
     height: auto;
     width: auto;
     display: flex;
     position: absolute;
-    right:0;
+    right: 0;
 }
 
-.feed .post .post-bottom .likes{
+.feed .post .post-bottom .likes {
     display: flex;
     height: 20px;
     font-size: 14px;
     align-items: center;
     margin-top: 12px;
 }
-.feed .post .post-bottom .likes img{
+
+.feed .post .post-bottom .likes img {
     margin-right: 5px;
 }
 
 /*** Sidebar ***/
 
-.container-sidebar{
-    background-color: green;
-    width: 300px;   
-    
+.container-sidebar {
+    width: 300px;
 }
 
-.sidebar{
-    background-color: red;
+.sidebar {
+    
     width: 300px;
     position: fixed;
     top: 100px;
@@ -277,14 +276,85 @@ strong{
     z-index: 5;
 }
 
+.sidebar h1 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #262626;
+}
+
+.sidebar h2 {
+    font-size: 14px;
+    font-weight: 300;
+    color: #8e8e8e;
+}
+
+.sidebar h3 {
+    font-size: 12px;
+    font-weight: 400;
+    color: #8e8e8e;
+}
+
+.sidebar h4 {
+    font-size: 12px;
+    font-weight: 500;
+    color: #8e8e8e;
+}
+
+.sidebar h5 {
+    font-size: 12px;
+    font-weight: 500;
+    color: #262626;
+}
+
 .sidebar .profile {
     display: flex;
     align-items: center;
     font-size: 14px;
+    margin-bottom: 24px;
 }
 
-.sidebar .profile img{
+.sidebar .profile img {
     width: 56px;
     height: 56px;
     margin-right: 17px;
+}
+
+.sidebar .suggestions {
+    height: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.sidebar .recommended-profile {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 17px;
+}
+
+.sidebar .recommended-profile img {
+    height: 32px;
+    width: 32px;
+    margin-right: 11px;
+}
+
+.sidebar .recommended-profile p {
+    position: absolute;
+    right: 0;
+    font-size: 12px;
+    font-weight: 500;
+    color: #139ef2;
+}
+
+.sidebar .sidebar-text {
+    margin-top: 33px;
+    height: 74px;
+    color: #c7c7c7;
+    font-size: 11px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
