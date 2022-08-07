@@ -84,15 +84,23 @@ strong{
 
 
 }
-/**** Inicio do feed ****/
-.container{
 
-    
-    margin: 88px auto 0 auto;
+
+/**** Inicio do feed ****/
+.layout{
+    background-color: yellow;
+    width: 935px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    background-color: blue;
+    margin-top: 88px;
     width: 614px;
     display: flex;
     flex-direction: column;
-
+    
 }
 
 /*** Stories ***/
@@ -250,4 +258,33 @@ strong{
 }
 .feed .post .post-bottom .likes img{
     margin-right: 5px;
+}
+
+/*** Sidebar ***/
+
+.container-sidebar{
+    background-color: green;
+    width: 300px;   
+    
+}
+
+.sidebar{
+    background-color: red;
+    width: 300px;
+    position: fixed;
+    top: 100px;
+    right: calc((100% - 935px) / 2);
+    z-index: 5;
+}
+
+.sidebar .profile {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.sidebar .profile img{
+    width: 56px;
+    height: 56px;
+    margin-right: 17px;
 }
