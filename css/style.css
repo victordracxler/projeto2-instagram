@@ -161,20 +161,17 @@ strong {
 }
 
 /*** Feed ***/
-.feed {
-    background-color: #139ef2;
-}
 
+
+/* Cada post*/
 .feed .post {
-    /* Cada post*/
-
     margin-bottom: 60px;
     border-radius: 3px;
     border: 1px solid #dbdbdb;
 }
 
+ /*Topo do post*/
 .feed .post .post-top {
-    /*Topo do post*/
     background-color: #ffffff;
     height: 60px;
     display: flex;
@@ -184,29 +181,29 @@ strong {
     position: relative;
 }
 
+/*Foto do usuario*/
 .feed .post .post-top .profile-pic {
-    /*Foto do usuario*/
     width: 32px;
     height: 32px;
     margin-right: 15px;
 }
 
+  /*username*/
 .feed .post .post-top .p-user {
-    /*username*/
     font-size: 14px;
     font-weight: 500;
 }
 
+ /*Reticências*/
 .feed .post .post-top .post-options {
-    /*Reticências*/
     width: 16px;
     height: 16px;
     position: absolute;
     right: 17px;
 }
 
+ /*Conteudo do post*/
 .feed .post .content img {
-    /*Conteudo do post*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -214,17 +211,16 @@ strong {
     height: 612px;
 }
 
+ /*Parte inferior do post*/
 .feed .post .post-bottom {
-    /*Parte inferior do post*/
     background-color: #ffffff;
     height: 76px;
     padding: 13px 17px 0px 17px;
 }
 
+/*Botões da parte inferior do post*/
 .feed .post .post-bottom .controls {
-    /*Botões da parte inferior do post*/
-
-    display: flex;
+        display: flex;
     flex-direction: row;
     width: 100%;
     position: relative;
@@ -358,3 +354,22 @@ strong {
     flex-direction: column;
     justify-content: space-between;
 }
+
+
+/********** Layout Desktop sem sidebar **********/
+
+@media (max-width: 935px) {
+
+    .container-sidebar{
+        display: none;
+    }
+
+    .layout {
+        width: auto;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+
