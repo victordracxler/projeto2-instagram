@@ -4,11 +4,11 @@
 
 body {
     background-color: #fafafa;
-}
-
-p {
     font-family: "Roboto", sans-serif;
 }
+
+
+
 
 strong {
     font-weight: bold;
@@ -85,6 +85,9 @@ strong {
     width: 22px;
 }
 
+.topbar-mobile{
+    display: none;
+}
 /**** Inicio do feed ****/
 .layout {
     width: 935px;
@@ -380,7 +383,8 @@ strong {
 
 @media (max-width: 614px){
 
-    .topbar {
+    .topbar-mobile{
+        font-size: 22px;
         width: 100%;
         height: 54px;
         background-color: #ffffff;
@@ -393,6 +397,15 @@ strong {
         top: 0;
         left: 0;
         z-index: 100;
+        padding: 0 20px;
+    }
+    .topbar-mobile img{
+        width: 103px;
+        height: 29px;
+    }
+
+    .topbar {
+        display: none;
     }
 
     .stories-bar {
@@ -433,6 +446,10 @@ strong {
         position: fixed;
         bottom: 0;
         left: 0;
+        font-size: 22px;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 19px;
     }
 
 }
