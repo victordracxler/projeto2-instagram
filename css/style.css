@@ -7,9 +7,6 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-
-
-
 strong {
     font-weight: bold;
 }
@@ -407,6 +404,7 @@ strong {
     .topbar {
         display: none;
     }
+   
 
     .stories-bar {
         background: none;
@@ -431,6 +429,14 @@ strong {
         margin-top: 54px;
         width: 100%;
     }
+
+    .feed .post {
+        
+        border-radius: 0;
+        border-right: none;
+        border-left: none;
+    }
+    
     .feed .post .content img {
        
         width: 100%;
